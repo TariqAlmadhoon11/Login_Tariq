@@ -1,0 +1,149 @@
+
+body{
+    background-image: url("../images/TOKASPER.jpg");
+     
+    
+}
+
+img{
+   width: 127px;
+   margin: 20px auto;
+   position: relative;
+   top: -60px;
+   border-radius: 125px;
+}
+
+ .over{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0/60%);
+ }
+ h1{
+   text-align: center;
+   color: white;
+   font-weight: bold;
+ }
+ .page{
+   display: flex;
+   justify-content: center;
+   background-color: #0b2a39c4;
+   width: 600px;
+   height: 700px;
+   margin: 90px auto;
+   border-radius: 60px;
+}
+ 
+ .page .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+
+ .container .el{
+   display: flex;
+    flex-direction: column;
+ }
+
+ .container .el input{
+   width: 400px;
+   height: 30px;
+   margin: 45px auto;
+   outline: none;
+   border: none;
+   border-bottom: 3px solid #457293;
+   background: none;
+   padding: 5px;
+   color: white;
+   font-size: 17px;
+
+ }
+
+ .container .el input:focus{
+   border-bottom: 3px solid #b1d5f0;
+ }
+
+ /* .container .el label{
+   position: relative;
+    bottom: -60px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+ } */
+
+ .container .el button{
+   width: 200px;
+    margin: 30px auto;
+    background-color: #457293;
+    height: 65px;
+    font-size: 27px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    
+ }
+ 
+ .container .el button:hover{
+   color: rgb(232, 230, 227);
+   background-color: #69c5f3;
+   box-shadow: 0 0 5px #69c5f3,
+               0 0 25px #69c5f3,
+               0 0 50px #69c5f3,
+               0 0 100px #69c5f3;
+   
+ }
+ 
+
+ .container .el p{
+   color: white;
+   font-size: 17px;
+   position: relative;
+   top: -25px;
+   cursor: pointer;
+ }
+
+ .container .el p:hover{
+   color: #3b87c1;
+ }
+
+
+ .li{
+  height: 2px;
+  width: 10px;
+  background:linear-gradient(90deg, transparent, rgb(150, 246, 255));
+  position: relative;
+  top: -47px;
+  left: 21px;
+  animation-name: fle;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite
+ }
+
+ .lire{
+  height: 2px;
+  width: 10px;
+  background:linear-gradient(90deg, transparent, rgb(150, 246, 255));
+  position: relative;
+  top: 16px;
+  left: 21px;
+  animation-name: fler;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite
+ }
+
+@keyframes fle{
+  to{
+    width: 145px;
+  }
+}
+
+
+@keyframes fler{
+  to{
+    width: 145px;
+  }
+}
